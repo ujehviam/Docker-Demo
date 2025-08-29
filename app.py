@@ -8,11 +8,11 @@ html_form = '''
 <!doctype html>
 <html>
   <head>
-    <title>Login/Signup DOCKER APP</title>
+    <title>Login/Signup</title>
     <link rel="stylesheet" href="/static/styles.css">
   </head>
   <body>
-    <h2>User Login / Signup</h2>
+    <h2>User Login / Signup DOCKER APP</h2>
     <form method="POST" action="/login">
       <label>Username:</label><br>
       <input type="text" name="username" required><br><br>
