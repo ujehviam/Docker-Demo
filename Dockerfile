@@ -1,10 +1,12 @@
-FROM python:3.11-alpine
+FROM python:3.13.7-alpine3.22
 
 WORKDIR /Docker
 
-COPY . /Docker/
+COPY requirements.txt /Docker
 
-RUN pip install flask
+RUN pip install -r requirements.txt
+
+COPY . /Docker
 
 EXPOSE 5000
 
